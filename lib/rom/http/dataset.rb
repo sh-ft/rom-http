@@ -317,6 +317,10 @@ module ROM
       def response
         response_handler.call(request_handler.call(self), self)
       end
+        
+      def sql
+        nil
+      end
 
       private
 
